@@ -37,7 +37,7 @@
 
     <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand" href="#">Event Crew</a>
+            <a class="navbar-brand" href="index.html">Event Crew</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
                 title="Toggle navigation" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -46,8 +46,27 @@
             <div class="collapse navbar-collapse" id="mainNav">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="servicesDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu shadow-lg border-0 rounded-3 p-2" aria-labelledby="servicesDropdown">
+                            <li><a class="dropdown-item" href="promotion.html">Promotions</a></li>
+                            <li><a class="dropdown-item" href="events.html">Events</a></li>
+                            <li><a class="dropdown-item" href="event and hosp.html">Event & Hospitality Staffing</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item fw-semibold text-primary" href="services.html">View All Services
+                                    →</a></li>
+                        </ul>
+                    </li>
+
+
                     <li class="nav-item"><a class="nav-link" href="#">Projects Gallery</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Blogs</a></li>
                 </ul>
@@ -71,7 +90,7 @@
                         veritatis dolorem.
                     </p>
                     <div class="mt-3">
-                        <a href="#" class="btn btn-main">Explore More &nbsp;&nbsp;<i class="bi bi-arrow-right"></i></a>
+                        <a href="#" class="btn btn-main">Enquire Now &nbsp;&nbsp;<i class="bi bi-arrow-right"></i></a>
                         <a href="#" style="color: #224432; text-underline-offset: 4px" class="ms-3">View All
                             Services</a>
                     </div>
@@ -89,23 +108,17 @@
         <div class="brand-slider">
             <div class="d-flex gap-4 w-100 brand-bar">
                 <!-- First Row of Logos -->
-                <div><i class="bi bi-asterisk" style="color: #baf814"></i> Content
-                    Marketing</div>
-                <div><i class="bi bi-asterisk" style="color: #baf814"></i> Social Media
-                    Marketing</div>
-                <div><i class="bi bi-asterisk" style="color: #baf814"></i> Search Engine
-                    Optimisation</div>
-                <div><i class="bi bi-asterisk" style="color: #baf814"></i> Digital
-                    Marketing</div>
+                <div><i class="bi bi-asterisk" style="color: #baf814"></i> Promotions</div>
+                <div><i class="bi bi-asterisk" style="color: #baf814"></i> Events</div>
+                <div><i class="bi bi-asterisk" style="color: #baf814"></i> Events & Hospitality Staff</div>
 
-                <div><i class="bi bi-asterisk" style="color: #baf814"></i> Content
-                    Marketing</div>
-                <div><i class="bi bi-asterisk" style="color: #baf814"></i> Social Media
-                    Marketing</div>
-                <div><i class="bi bi-asterisk" style="color: #baf814"></i> Search Engine
-                    Optimisation</div>
-                <div><i class="bi bi-asterisk" style="color: #baf814"></i> Digital
-                    Marketing</div>
+                <div><i class="bi bi-asterisk" style="color: #baf814"></i> Promotions</div>
+                <div><i class="bi bi-asterisk" style="color: #baf814"></i> Events</div>
+                <div><i class="bi bi-asterisk" style="color: #baf814"></i> Events & Hospitality Staff</div>
+
+                <div><i class="bi bi-asterisk" style="color: #baf814"></i> Promotions</div>
+                <div><i class="bi bi-asterisk" style="color: #baf814"></i> Events</div>
+                <div><i class="bi bi-asterisk" style="color: #baf814"></i> Events & Hospitality Staff</div>
             </div>
         </div>
     </section>
@@ -114,17 +127,16 @@
         <div class="container">
             <div class="text-center mb-5">
                 <p class="about-subtitle text-success justify-content-center align-items-center">About Us</p>
-                <h3 class="about-title">
-                    Empowering Your Success<br />
-                    with Digital Expertise
-                </h3>
+                <!-- <h3 class="about-title">
+                    To make events stress-free,<br> engaging, and unforgettable.
+                </h3> -->
             </div>
 
             <div class="row ">
                 <!-- Left Images -->
                 <div class="col-lg-6">
                     <div class="about-images">
-                        <img src="images/demo img.jpg" alt="Team Image 1" class="aboutIMG1 rounded-5 mb-2" />
+                        <!-- <img src="images/demo img.jpg" alt="Team Image 1" class="aboutIMG1 rounded-5 mb-2" /> -->
                         <img src="images/demo img.jpg" alt="Team Image 2" class="aboutIMG2 rounded-5" />
                     </div>
                 </div>
@@ -147,7 +159,7 @@
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. A dolore harum, magni quasi aliquam
                         expedita ad itaque odit est autem omnis possimus, rem ratione. Pariatur aspernatur.
                     </p>
-                    <p class="about-text">
+                    <!-- <p class="about-text">
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas eos repellat, minus nemo quod
                         labore
                         laboriosam corrupti optio debitis ea, reiciendis fugiat molestiae nisi quasi nihil voluptatem
@@ -155,11 +167,55 @@
                         omnis cumque! Lorem ipsum dolor sit amet Lorem ipsum dolor, sit amet consectetur adipisicing
                         elit.
                         Assumenda placeat quibusdam itaque, eius vero architecto molestias laborum aperiam.
-                    </p>
+                    </p> -->
 
                     <!-- Button -->
                     <button class="about-btn">About Us &nbsp;&nbsp;<i class="bi bi-arrow-right"></i></button>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section"> 
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col-4">
+                    <div class="info-card">
+                        <div class="icon-container">
+                            <i class="bi bi-person-check"></i>
+                        </div>
+                        <h4>Mission</h4>
+                        <p>To design and deliver innovative, engaging, and result-driven experiences that
+                            connect
+                            people and brands.</p>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="info-card">
+                        <div class="icon-container">
+                            <i class="bi bi-graph-up"></i>
+                        </div>
+                        <h4>Vision</h4>
+                        <p>To be recognized as a trusted partner in events and activations, known for
+                            creativity,
+                            reliability, and excellence.</p>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="info-card">
+                        <div class="icon-container">
+                            <i class="bi bi-award"></i>
+                        </div>
+                        <h4>Aim</h4>
+                        <p>To be recognized as a trusted partner in events and activations, known for
+                            creativity,
+                            reliability, and excellence.</p>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -191,76 +247,6 @@
                     <div class="dot"></div>
                     <div class="stat-number" data-target="16" data-suffix="+">0</div>
                     <div class="stat-text">Years of Experience</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="about-section">
-        <div class="container">
-            <div class="row align-items-center">
-
-                <div class="col-lg-3 g-1">
-                    <div class="image-container">
-                        <img src="images/demo img.jpg" class="img-fluid rounded-2" alt="Team collaborating">
-                    </div>
-                </div>
-                <div class="col-lg-3 g-1">
-                    <div class="image-container">
-                        <img src="images/demo img.jpg" class="img-fluid rounded-2" alt="Team collaborating">
-                    </div>
-                </div>
-
-                <!-- Right Column: Four Info Cards -->
-                <div class="col-lg-6">
-                    <div class="info-cards">
-                        <div class="row g-4 g-md-0">
-                            <!-- Card 1 -->
-                            <div class="col-md-6">
-                                <div class="info-card" style="background-color: #2F4F3F;">
-                                    <div class="icon-container">
-                                        <i class="bi bi-person-check"></i>
-                                    </div>
-                                    <h5>Mission</h5>
-                                    <p>To design and deliver innovative, engaging, and result-driven experiences that
-                                        connect
-                                        people and brands.</p>
-                                </div>
-                            </div>
-                            <!-- Card 2 -->
-                            <div class="col-md-6">
-                                <div class="info-card">
-                                    <div class="icon-container">
-                                        <i class="bi bi-graph-up"></i>
-                                    </div>
-                                    <h5>Vision</h5>
-                                    <p>To be recognized as a trusted partner in events and activations, known for
-                                        creativity,
-                                        reliability, and excellence.</p>
-                                </div>
-                            </div>
-                            <!-- Card 3 -->
-                            <div class="col-md-6">
-                                <div class="info-card">
-                                    <div class="icon-container">
-                                        <i class="bi bi-award"></i>
-                                    </div>
-                                    <h5>Award Winning</h5>
-                                    <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                                </div>
-                            </div>
-                            <!-- Card 4 -->
-                            <div class="col-md-6">
-                                <div class="info-card" style="background-color: #2F4F3F;">
-                                    <div class="icon-container">
-                                        <i class="bi bi-file-earmark-text"></i>
-                                    </div>
-                                    <h5>Transparent Reporting</h5>
-                                    <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -763,73 +749,51 @@
                 <h2>Work That Drives Results</h2>
             </div>
 
-            <!-- Swiper Container -->
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper py-3">
-
-                    <div class="swiper-slide">
-                        <div class="services-card">
-                            <img src="images/demo img.jpg" alt="Service 1">
-                            <span class="service-badge">Promotions</span>
-                            <hr>
-                            <h5 class="service-title">Intro:</h5>
-                            <p class="service-desc">We help brands connect directly with their audience through engaging
-                                and
-                                innovative below-the-line marketing campaigns.</p>
+            <div class="row">
+                <div class="col-4">
+                    <div class="services-card">
+                        <img src="images/demo img.jpg" alt="Service 1">
+                        <span class="service-badge">Promotions</span>
+                        <hr>
+                        <p class="service-desc">We help brands connect directly with their audience through engaging
+                            and
+                            innovative below-the-line marketing campaigns.</p>
+                            <div class="service-but">
+                            <a href="promotion.html" class="service-btn">Explore more</a>
                         </div>
                     </div>
-
-                    <div class="swiper-slide">
-                        <div class="services-card">
-                            <img src="images/demo img.jpg" alt="Service 2">
-                            <span class="service-badge">Events</span>
-                            <hr>
-                            <h5 class="service-title">Intro:</h5>
-                            <p class="service-desc">From intimate gatherings to large-scale corporate shows, Event Crew
-                                brings every idea to life with planning, creativity, and flawless execution.</p>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="services-card">
-                            <img src="images/demo img.jpg" alt="Service 3">
-                            <span class="service-badge">Event Staffing</span>
-                            <hr>
-                            <h5 class="service-title">Intro:</h5>
-                            <p class="service-desc">Our professional event staff ensure that every detail is taken care
-                                of
-                                so you can focus on enjoying your event.</p>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="services-card">
-                            <img src="images/demo img.jpg" alt="Service 4">
-                            <span class="service-badge">Hospitality Staff</span>
-                            <hr>
-                            <h5 class="service-title">Intro:</h5>
-                            <p class="service-desc">From the first welcome to the last goodbye, our hospitality team
-                                ensures
-                                smooth coordination and guest satisfaction at every step.</p>
-                        </div>
-                    </div>
-
                 </div>
 
-                <div class="swiper-nav d-flex justify-content-center gap-3 mt-4">
-                    <button class="swipe-btn swiper-prev">
-                        <i class="bi bi-arrow-left"></i>
-                    </button>
-                    <button class="swipe-btn swiper-next">
-                        <i class="bi bi-arrow-right"></i>
-                    </button>
+
+                <div class="col-4">
+                    <div class="services-card">
+                        <img src="images/demo img.jpg" alt="Service 2">
+                        <span class="service-badge">Events</span>
+                        <hr>
+                        <p class="service-desc">From intimate gatherings to large-scale corporate shows, Event Crew
+                            brings every idea to life with planning, creativity, and flawless execution.</p>
+                            <div class="service-but">
+                            <a href="promotion.html" class="service-btn">Explore more</a>
+                        </div>
+                    </div>
                 </div>
+
+                <div class="col-4">
+                    <div class="services-card">
+                        <img src="images/demo img.jpg" alt="Service 3">
+                        <span class="service-badge">Event Staffing</span>
+                        <hr>
+                        <p class="service-desc">Our professional event staff ensure that every detail is taken care
+                            of
+                            so you can focus on enjoying your event.</p>
+                        <div class="service-but">
+                            <a href="promotion.html" class="service-btn">Explore more</a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
-            <!-- <div class="service-but">
-                <a href="#" class="service-btn">View more</a>
-            </div> -->
-        </div>
     </section>
 
     <section class="contact-section">
@@ -1030,5 +994,4 @@
     </script>
 
 </body>
-
 </html>
