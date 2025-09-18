@@ -17,20 +17,17 @@
     <div class="top-bar">
         <div class="container d-flex justify-content-between align-items-center">
             <div>
-                <span><i class="bi bi-telephone" style="color: #baf814"></i>
-                    1000-000-0000</span>
+                <span><i class="bi bi-telephone" style="color: #616161"></i> 099990 70928</span>
                 |
-                <span><i class="bi bi-envelope" style="color: #baf814"></i>
-                    example@gmail.com</span>
+                <span><i class="bi bi-envelope" style="color: #616161"></i> example@gmail.com</span>
                 |
-                <span><i class="bi bi-geo-alt" style="color: #baf814"></i> 2464 Royal Ln,
-                    Mesa, NJ 6543</span>
+                <span><i class="bi bi-geo-alt" style="color: #616161"></i> Plot No 79, Sector 21A, Faridabad, Haryana
+                    121012</span>
             </div>
             <div>
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-twitter"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
                 <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
             </div>
         </div>
     </div>
@@ -70,10 +67,10 @@
                     </li>
 
 
-                    <li class="nav-item"><a class="nav-link" href="#">Projects Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Blogs</a></li>
                 </ul>
-                <a href="#" class="btn btn-get">Get A Quote</a>
+                <a href="#contact us" class="btn btn-get">Book Now</a>
             </div>
         </div>
     </nav>
@@ -83,21 +80,19 @@
             <div class="row align-items-center">
                 <!-- Left Content -->
                 <div class="col-lg-6 col-md-12 text-center text-lg-start">
-                    <h6 class="text-success fw-bold">
-                        Where Events Become Experiences
-                    </h6>
+                    <h5 class="fw-bold">
+                        Where Events Meets Excellence
+                    </h5>
                     <h1>Seamless Execution Memorable Moments</h1>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Necessitatibus sequi numquam cupiditate natus fugiat nemo
-                        veritatis dolorem.
+                        Crafting flawless experiences that inspire, engage, and leave a lasting impact.
                     </p>
                     <div class="mt-3">
                         <!-- <a href="#" class="btn btn-main">Enquire Now &nbsp;&nbsp;<i class="bi bi-arrow-right"></i></a> -->
                         <a href="#" class="btn btn-main" data-bs-toggle="modal" data-bs-target="#enquiryModal">
                             Enquire Now →
                         </a>
-                        <a href="#services" style="color: #224432; text-underline-offset: 4px" class="ms-3">View All
+                        <a href="#all-services" style="color: #616161; text-underline-offset: 4px" class="ms-3">View All
                             Services</a>
                     </div>
 
@@ -115,30 +110,22 @@
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content shadow-lg border-0 rounded-4">
 
-                <!-- Modal Header -->
-                <div class="modal-header border-0 ">
+                <div class="modal-header border-0">
                     <h5 class="modal-title fw-bold text-success text-center" id="enquiryModalLabel">
                         Get In Touch
                     </h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
 
-                <!-- Modal Body -->
-                <div class="modal-body ">
+                <div class="modal-body">
                     <form>
-                        <!-- Name -->
+
+                        <!-- Full Name -->
                         <div class="mb-2">
                             <label for="name" class="form-label fw-semibold">Full Name</label>
                             <input type="text" class="form-control rounded-3 shadow-sm" id="name"
                                 placeholder="Enter your name">
                         </div>
-
-                        <!-- Email -->
-                        <!-- <div class="mb-2">
-                            <label for="email" class="form-label fw-semibold">Email Address</label>
-                            <input type="email" class="form-control rounded-3 shadow-sm" id="email"
-                                placeholder="Enter your email">
-                        </div> -->
 
                         <!-- Phone -->
                         <div class="mb-2">
@@ -147,11 +134,29 @@
                                 placeholder="Enter your phone number">
                         </div>
 
-                        <!-- Message -->
+                        <!-- Email -->
                         <div class="mb-2">
-                            <label for="message" class="form-label fw-semibold">Message</label>
-                            <textarea class="form-control rounded-3 shadow-sm" id="message" rows="3"
-                                placeholder="Type your message"></textarea>
+                            <label for="email" class="form-label fw-semibold">Email Address</label>
+                            <input type="email" class="form-control rounded-3 shadow-sm" id="email"
+                                placeholder="Enter your email">
+                        </div>
+
+                        <!-- City -->
+                        <div class="mb-2">
+                            <label for="city" class="form-label fw-semibold">City</label>
+                            <input type="text" class="form-control rounded-3 shadow-sm" id="city"
+                                placeholder="Enter your city">
+                        </div>
+
+                        <!-- Services Dropdown -->
+                        <div class="mb-2">
+                            <label for="services" class="form-label fw-semibold">Select Service</label>
+                            <select class="form-select rounded-3 shadow-sm" id="services">
+                                <option selected disabled>Choose a service</option>
+                                <option value="promotion">Promotions - BTL Marketing</option>
+                                <option value="event-planning">Events</option>
+                                <option value="event-and-hospitality-staffing">Event & Hospitality Staffing</option>
+                            </select>
                         </div>
 
                         <!-- Submit Button -->
@@ -172,15 +177,15 @@
                 <!-- First Row of Logos -->
                 <div><i class="bi bi-asterisk" style="color: #baf814"></i> Promotions-BTL Marketing</div>
                 <div><i class="bi bi-asterisk" style="color: #baf814"></i> Events</div>
-                <div><i class="bi bi-asterisk" style="color: #baf814"></i> Events & Hospitality Staffing</div>
+                <div><i class="bi bi-asterisk" style="color: #baf814"></i> Event & Hospitality Staffing</div>
 
                 <div><i class="bi bi-asterisk" style="color: #baf814"></i> Promotions-BTL Marketing</div>
                 <div><i class="bi bi-asterisk" style="color: #baf814"></i> Events</div>
-                <div><i class="bi bi-asterisk" style="color: #baf814"></i> Events & Hospitality Staffing</div>
+                <div><i class="bi bi-asterisk" style="color: #baf814"></i> Event & Hospitality Staffing</div>
 
                 <div><i class="bi bi-asterisk" style="color: #baf814"></i> Promotions-BTL Marketing</div>
                 <div><i class="bi bi-asterisk" style="color: #baf814"></i> Events</div>
-                <div><i class="bi bi-asterisk" style="color: #baf814"></i> Events & Hospitality Staffing</div>
+                <div><i class="bi bi-asterisk" style="color: #baf814"></i> Event & Hospitality Staffing</div>
             </div>
         </div>
     </section>
@@ -188,7 +193,7 @@
     <section class="about-section" id="about">
         <div class="container">
             <div class="text-center mb-5">
-                <p class="about-subtitle text-success justify-content-center align-items-center">About Us</p>
+                <h1 class="about-subtitle justify-content-center align-items-center">About Us</h1>
                 <!-- <h3 class="about-title">
                     To make events stress-free,<br> engaging, and unforgettable.
                 </h3> -->
@@ -199,40 +204,28 @@
                 <div class="col-lg-6">
                     <div class="about-images">
                         <!-- <img src="images/demo img.jpg" alt="Team Image 1" class="aboutIMG1 rounded-5 mb-2" /> -->
-                        <img src="images/demo img.jpg" alt="Team Image 2" class="aboutIMG2 rounded-5" />
+                        <img src="images/istockphoto-1164197127-612x612.jpg" alt="Team Image 2"
+                            class="aboutIMG2 rounded-5" />
                     </div>
                 </div>
 
                 <!-- Right Content -->
                 <div class="col-lg-6">
-                    <p class="about-text">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas eos repellat, minus nemo quod
-                        labore
-                        laboriosam corrupti optio debitis ea, reiciendis fugiat molestiae nisi quasi nihil voluptatem
-                        odit,
-                        omnis cumque! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam, quibusdam fugiat
-                        voluptate hic, ratione velit consectetur, quae soluta libero commodi voluptatibus rerum aliquid
-                        natus adipisci tempora qui et! Consectetur, laboriosam.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis iusto ipsum dicta vitae officiis!
-                        Qui
-                        inventore earum voluptates neque quia vero laudantium natus eius blanditiis! Minima nobis
-                        explicabo
-                        quaerat eius!
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. A dolore harum, magni quasi aliquam
-                        expedita ad itaque odit est autem omnis possimus, rem ratione. Pariatur aspernatur.
-                    </p>
-                    <!-- <p class="about-text">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas eos repellat, minus nemo quod
-                        labore
-                        laboriosam corrupti optio debitis ea, reiciendis fugiat molestiae nisi quasi nihil voluptatem
-                        odit,
-                        omnis cumque! Lorem ipsum dolor sit amet Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit.
-                        Assumenda placeat quibusdam itaque, eius vero architecto molestias laborum aperiam.
-                    </p> -->
+                    <p class="about-text">Event Crew was founded with a simple yet powerful idea to make every event
+                        stress-free, engaging, and unforgettable. With a passionate team of experienced professionals,
+                        we specialize in BTL activations, corporate events, staffing, and hospitality services that
+                        leave a lasting impression. Over the years, we have proudly worked with leading brands, schools,
+                        colleges, and corporates, bringing their visions to life with a blend of creativity, precision,
+                        and flawless execution. What sets us apart is our commitment to truly understanding client
+                        objectives, offering tailor-made solutions, and delivering on-ground excellence with measurable
+                        impact. From conceptualization to execution, every detail is managed with care and expertise,
+                        ensuring events that not only meet but exceed expectations. With Event Crew by your side, every
+                        occasion transforms into a meaningful experience designed to inspire, connect, and be
+                        remembered.</p>
 
-                    <!-- Button -->
-                    <button class="about-btn">About Us &nbsp;&nbsp;<i class="bi bi-arrow-right"></i></button>
+                    <a href="about.html">
+                        <button class="about-btn">About Us &nbsp;&nbsp;<i class="bi bi-arrow-right"></i></button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -319,132 +312,44 @@
 
             <div class="testimonials">
                 <div class="row">
-                    <div class="col-lg-6">
-                        <p>Testimonials</p>
-                        <h2>Testimonials: Trusted by Our Clients</h2>
-                    </div>
-
-                    <div class="col-lg-6">
-                        <p class="mb-4">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam fugiat cupiditate molestiae
-                            provident nobis !
-                        </p>
-
-                        <a href="#" class="btn-testimonials">All Testimonials <i class="bi bi-arrow-right"></i></a>
+                    <div class="col-lg-12">
+                        <h2>What Our Clients Say About Us</h2>
                     </div>
                 </div>
             </div>
 
-            <div class="swiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-
-                        <div class="testimonial2">
-                            <div class="row">
-                                <div class="col-lg-3">
-                                    <div class="testimonial-left">
-                                        <h1 class="">4.9</h1>
-                                        <div class="stars my-2">
-                                            <i class="bi bi-star-fill" style="color: #baf814"></i>
-                                            <i class="bi bi-star-fill" style="color: #baf814"></i>
-                                            <i class="bi bi-star-fill" style="color: #baf814"></i>
-                                            <i class="bi bi-star-fill" style="color: #baf814"></i>
-                                            <i class="bi bi-star-fill" style="color: #baf814"></i>
-                                        </div>
-                                        <p>(1k+ Reviews)</p>
-                                        <p>Customer experiences that speak for themselves</p>
-                                        <div class="d-flex justify-content-center profile-images">
-                                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="client1"
-                                                style="width:35px;height:35px;object-fit:cover;border-radius:50%;">
-                                            <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="client2"
-                                                style="width:35px;height:35px;object-fit:cover;border-radius:50%;margin-left:-8px;">
-                                            <img src="https://randomuser.me/api/portraits/men/78.jpg" alt="client3"
-                                                style="width:35px;height:35px;object-fit:cover;border-radius:50%;margin-left:-8px;">
-                                            <div class="d-flex align-items-center justify-content-center border text-white rounded-circle"
-                                                style="background-color: #224432;width:35px;height:35px;margin-left:-8px;font-size:12px;">
-                                                +5</div>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-9">
-
-                                    <!-- <div class="position-relative"> -->
-                                    <div id="testimonial-container" class="testimonial-card">
-                                        <div class="d-flex align-items-center mb-2">
-                                            <div class="me-2">
-                                                <i class="bi bi-star-fill star"></i>
-                                                <i class="bi bi-star-fill star"></i>
-                                                <i class="bi bi-star-fill star"></i>
-                                                <i class="bi bi-star-fill star"></i>
-                                                <i class="bi bi-star-fill star"></i>
-                                            </div>
-                                            <strong>5.0</strong>
-                                        </div>
-                                        <p class="mb-3">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor
-                                            incididunt ut labore. Lorem ipsum dolor sit, amet consectetur adipisicing
-                                            elit.
-                                            Consequuntur placeat, fugit eaque nam doloribus praesentium! Quaerat tempore
-                                            voluptatem
-                                            nisi. Culpa error at quo beatae iusto dolorem, laudantium quam nihil harum.
-                                            Lorem ipsum
-                                            dolor, sit amet consectetur adipisicing elit. Reiciendis sequi commodi
-                                            perferendis minus
-                                            beatae repudiandae, nobis.
-                                        </p>
-                                        <h6 class="mb-0">Dianne Russell</h6>
-                                        <small class="text-muted">Owner, Architecture Studio</small>
-
-                                        <div class="d-flex justify-content-end gap-2">
-                                            <button class="arrow-btn" onclick="prevTestimonial()"><i
-                                                    class="bi bi-arrow-left"></i></button>
-                                            <button class="arrow-btn" onclick="nextTestimonial()"><i
-                                                    class="bi bi-arrow-right"></i></button>
-                                        </div>
-                                    </div>
-                                </div>
-
+            <div class="testimonial2">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="testimonial-left">
+                            <h1 class="">4.9</h1>
+                            <div class="stars my-2">
+                                <i class="bi bi-star-fill" style="color: #baf814"></i>
+                                <i class="bi bi-star-fill" style="color: #baf814"></i>
+                                <i class="bi bi-star-fill" style="color: #baf814"></i>
+                                <i class="bi bi-star-fill" style="color: #baf814"></i>
+                                <i class="bi bi-star-fill" style="color: #baf814"></i>
+                            </div>
+                            <p>(1k+ Reviews)</p>
+                            <p>Customer experiences that speak for themselves</p>
+                            <div class="d-flex justify-content-center profile-images">
+                                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="client1"
+                                    style="width:35px;height:35px;object-fit:cover;border-radius:50%;">
+                                <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="client2"
+                                    style="width:35px;height:35px;object-fit:cover;border-radius:50%;margin-left:-8px;">
+                                <img src="https://randomuser.me/api/portraits/men/78.jpg" alt="client3"
+                                    style="width:35px;height:35px;object-fit:cover;border-radius:50%;margin-left:-8px;">
+                                <div class="d-flex align-items-center justify-content-center border text-white rounded-circle"
+                                    style="background-color: #224432;width:35px;height:35px;margin-left:-8px;font-size:12px;">
+                                    +5</div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="swiper-slide">
-
-                        <div class="testimonial2">
-                            <div class="row">
-                                <div class="col-lg-3">
-                                    <div class="testimonial-left">
-                                        <h1 class="">4.9</h1>
-                                        <div class="stars my-2">
-                                            <i class="bi bi-star-fill" style="color: #baf814"></i>
-                                            <i class="bi bi-star-fill" style="color: #baf814"></i>
-                                            <i class="bi bi-star-fill" style="color: #baf814"></i>
-                                            <i class="bi bi-star-fill" style="color: #baf814"></i>
-                                            <i class="bi bi-star-fill" style="color: #baf814"></i>
-                                        </div>
-                                        <p>(1k+ Reviews)</p>
-                                        <p>Customer experiences that speak for themselves</p>
-                                        <div class="d-flex justify-content-center profile-images">
-                                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="client1"
-                                                style="width:35px;height:35px;object-fit:cover;border-radius:50%;">
-                                            <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="client2"
-                                                style="width:35px;height:35px;object-fit:cover;border-radius:50%;margin-left:-8px;">
-                                            <img src="https://randomuser.me/api/portraits/men/78.jpg" alt="client3"
-                                                style="width:35px;height:35px;object-fit:cover;border-radius:50%;margin-left:-8px;">
-                                            <div class="d-flex align-items-center justify-content-center border text-white rounded-circle"
-                                                style="background-color: #224432;width:35px;height:35px;margin-left:-8px;font-size:12px;">
-                                                +5</div>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-9">
-
-                                    <!-- <div class="position-relative"> -->
+                    <div class="col-lg-9">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
                                     <div id="testimonial-container" class="testimonial-card">
                                         <div class="d-flex align-items-center mb-2">
                                             <div class="me-2">
@@ -457,66 +362,24 @@
                                             <strong>5.0</strong>
                                         </div>
                                         <p class="mb-3">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor
-                                            incididunt ut labore. Lorem ipsum dolor sit, amet consectetur adipisicing
-                                            elit.
-                                            Consequuntur placeat, fugit eaque nam doloribus praesentium! Quaerat tempore
-                                            voluptatem
-                                            nisi. Culpa error at quo beatae iusto dolorem, laudantium quam nihil harum.
-                                            Lorem ipsum
-                                            dolor, sit amet consectetur adipisicing elit. Reiciendis sequi commodi
-                                            perferendis minus
-                                            beatae repudiandae, nobis.
+                                            Event Crew made our product launch absolutely seamless. From planning to
+                                            execution, everything was handled professionally. Their team ensured
+                                            branding stood out, guests were comfortable, and the event left a lasting
+                                            impression. Highly recommended for any corporate or brand campaign
                                         </p>
-                                        <h6 class="mb-0">Dianne Russell</h6>
-                                        <small class="text-muted">Owner, Architecture Studio</small>
-
-                                        <div class="d-flex justify-content-end gap-2">
-                                            <button class="arrow-btn" onclick="prevTestimonial()"><i
+                                        <h6 class="mb-0">Rohit Sharma</h6>
+                                        <small class="text-muted">Marketing Manager, TechNova Pvt. Ltd</small>
+                                            <div class="d-flex justify-content-end gap-2">
+                                            <button class="arrow-btn swiper-prev"><i
                                                     class="bi bi-arrow-left"></i></button>
-                                            <button class="arrow-btn" onclick="nextTestimonial()"><i
+                                            <button class="arrow-btn swiper-next"><i
                                                     class="bi bi-arrow-right"></i></button>
                                         </div>
+                                        
                                     </div>
+
                                 </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="testimonial2">
-                            <div class="row">
-                                <div class="col-lg-3">
-                                    <div class="testimonial-left">
-                                        <h1 class="">4.9</h1>
-                                        <div class="stars my-2">
-                                            <i class="bi bi-star-fill" style="color: #baf814"></i>
-                                            <i class="bi bi-star-fill" style="color: #baf814"></i>
-                                            <i class="bi bi-star-fill" style="color: #baf814"></i>
-                                            <i class="bi bi-star-fill" style="color: #baf814"></i>
-                                            <i class="bi bi-star-fill" style="color: #baf814"></i>
-                                        </div>
-                                        <p>(1k+ Reviews)</p>
-                                        <p>Customer experiences that speak for themselves</p>
-                                        <div class="d-flex justify-content-center profile-images">
-                                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="client1"
-                                                style="width:35px;height:35px;object-fit:cover;border-radius:50%;">
-                                            <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="client2"
-                                                style="width:35px;height:35px;object-fit:cover;border-radius:50%;margin-left:-8px;">
-                                            <img src="https://randomuser.me/api/portraits/men/78.jpg" alt="client3"
-                                                style="width:35px;height:35px;object-fit:cover;border-radius:50%;margin-left:-8px;">
-                                            <div class="d-flex align-items-center justify-content-center border text-white rounded-circle"
-                                                style="background-color: #224432;width:35px;height:35px;margin-left:-8px;font-size:12px;">
-                                                +5</div>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-9">
-
-                                    <!-- <div class="position-relative"> -->
+                                <div class="swiper-slide">
                                     <div id="testimonial-container" class="testimonial-card">
                                         <div class="d-flex align-items-center mb-2">
                                             <div class="me-2">
@@ -529,37 +392,87 @@
                                             <strong>5.0</strong>
                                         </div>
                                         <p class="mb-3">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor
-                                            incididunt ut labore. Lorem ipsum dolor sit, amet consectetur adipisicing
-                                            elit.
-                                            Consequuntur placeat, fugit eaque nam doloribus praesentium! Quaerat tempore
-                                            voluptatem
-                                            nisi. Culpa error at quo beatae iusto dolorem, laudantium quam nihil harum.
-                                            Lorem ipsum
-                                            dolor, sit amet consectetur adipisicing elit. Reiciendis sequi commodi
-                                            perferendis minus
-                                            beatae repudiandae, nobis.
+                                            We trusted Event Crew with our annual dealer meet and the results were
+                                            fantastic. The arrangements were flawless, hospitality was excellent, and
+                                            every detail was executed with precision. Our partners were impressed and
+                                            the event strengthened our brand relationships.
                                         </p>
-                                        <h6 class="mb-0">Dianne Russell</h6>
-                                        <small class="text-muted">Owner, Architecture Studio</small>
+                                        <h6 class="mb-0">Neha Verma</h6>
+                                        <small class="text-muted">Regional Head, BuildRight Enterprises
+                                        </small>
 
                                         <div class="d-flex justify-content-end gap-2">
-                                            <button class="arrow-btn" onclick="prevTestimonial()"><i
+                                            <button class="arrow-btn swiper-prev"><i
                                                     class="bi bi-arrow-left"></i></button>
-                                            <button class="arrow-btn" onclick="nextTestimonial()"><i
+                                            <button class="arrow-btn swiper-next"><i
+                                                    class="bi bi-arrow-right"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div id="testimonial-container" class="testimonial-card">
+                                        <div class="d-flex align-items-center mb-2">
+                                            <div class="me-2">
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star"></i>
+                                            </div>
+                                            <strong>5.0</strong>
+                                        </div>
+                                        <p class="mb-3">
+                                            Our college fest was managed by Event Crew, and they turned it into a grand
+                                            success. The décor, artist coordination, and event flow were superb.
+                                            Students and faculty both enjoyed the seamless execution and vibrant energy.
+                                        </p>
+                                        <h6 class="mb-0">Arjun Mehta</h6>
+                                        <small class="text-muted">Student Coordinator, Delhi University</small>
+
+                                        <div class="d-flex justify-content-end gap-2">
+                                            <button class="arrow-btn swiper-prev"><i
+                                                    class="bi bi-arrow-left"></i></button>
+                                            <button class="arrow-btn swiper-next"><i
+                                                    class="bi bi-arrow-right"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div id="testimonial-container" class="testimonial-card">
+                                        <div class="d-flex align-items-center mb-2">
+                                            <div class="me-2">
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star"></i>
+                                                <i class="bi bi-star-fill star"></i>
+                                            </div>
+                                            <strong>5.0</strong>
+                                        </div>
+                                        <p class="mb-3">I booked Event Crew for my daughter’s wedding functions and the
+                                            experience was excellent. The team was creative, polite, and very
+                                            professional. From artist management to guest services, everything was
+                                            handled beautifully, making our celebration stress-free and memorable.</p>
+                                        <h6 class="mb-0">Suman Agarwal</h6>
+                                        <small class="text-muted">Homemaker, Jaipur</small>
+
+                                        <div class="d-flex justify-content-end gap-2">
+                                            <button class="arrow-btn swiper-prev"><i
+                                                    class="bi bi-arrow-left"></i></button>
+                                            <button class="arrow-btn swiper-next"><i
                                                     class="bi bi-arrow-right"></i></button>
                                         </div>
                                     </div>
                                 </div>
 
                             </div>
+
                         </div>
                     </div>
 
                 </div>
             </div>
-        </div>
         </div>
     </section>
 
@@ -734,14 +647,11 @@
 
     <div class="container process-section">
         <div class="row align-items-center mb-5">
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <p class="text-dark fw-bold">Our Work Process</p>
                 <h2>Step-by-Step to Your Growth</h2>
             </div>
-            <div class="col-md-6">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.</p>
-            </div>
+
         </div>
 
         <div class="row g-4">
@@ -750,8 +660,8 @@
                 <div class="process-card">
                     <div>
                         <h5>Discover & Strategize</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt…
-                        </p>
+                        <p>We begin by understanding your goals, audience, and brand identity. Our team creates a
+                            tailored event strategy that aligns with your objectives and maximizes impact.</p>
                     </div>
                     <div class="step-footer">
                         <span>STEP</span>
@@ -766,8 +676,8 @@
                 <div class="process-card">
                     <div>
                         <h5>Execute & Optimize</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt…
-                        </p>
+                        <p>From planning to on-ground execution, we handle logistics, staffing, branding, and guest
+                            experiences. Every detail is optimized for flawless delivery.</p>
                     </div>
                     <div class="step-footer">
                         <span>STEP</span>
@@ -782,8 +692,8 @@
                 <div class="process-card">
                     <div>
                         <h5>Analyze & Grow</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt…
-                        </p>
+                        <p>Post-event, we measure results, gather feedback, and share insights. This helps improve
+                            future campaigns and ensures long-term brand growth.</p>
                     </div>
                     <div class="step-footer">
                         <span>STEP</span>
@@ -795,7 +705,7 @@
         </div>
     </div>
 
-    <section class="services" id="services">
+    <section class="services" id="all-services">
         <div class="container">
             <div class="services-title text-center">
                 <p>Our Work</p>
@@ -810,7 +720,7 @@
                         <hr>
                         <p class="service-desc">We help brands connect directly with their audience through engaging
                             and
-                            innovative below-the-line marketing campaigns......................</p>
+                            innovative below-the-line marketing campaigns. BTL (Below-the-Line) Marketing....</p>
                         <div class="service-but">
                             <a href="promotion.html" class="service-btn">Explore more</a>
                         </div>
@@ -824,9 +734,9 @@
                         <h5>Events</h5>
                         <hr>
                         <p class="service-desc">From intimate gatherings to large-scale corporate shows, Event Crew
-                            brings every idea to life with planning, creativity, and flawless execution.</p>
+                            brings every idea to life with planning, creativity, and flawless execution....</p>
                         <div class="service-but">
-                            <a href="promotion.html" class="service-btn">Explore more</a>
+                            <a href="events.html" class="service-btn">Explore more</a>
                         </div>
                     </div>
                 </div>
@@ -838,9 +748,9 @@
                         <hr>
                         <p class="service-desc">Our professional event staff ensure that every detail is taken care
                             of
-                            so you can focus on enjoying your event.</p>
+                            so you can focus on enjoying your event. Successful events rely on the right people....</p>
                         <div class="service-but">
-                            <a href="promotion.html" class="service-btn">Explore more</a>
+                            <a href="event and hosp.html" class="service-btn">Explore more</a>
                         </div>
                     </div>
                 </div>
@@ -849,11 +759,11 @@
 
     </section>
 
-    <section class="contact-section">
+    <section class="contact-section" id="contact us">
         <div class="container">
             <div class="contact-title">
                 <p>Contact Us</p>
-                <h2 class="mb-5">Get Your Free Quote Today!</h2>
+                <h2 class="mb-4">Let’s Create Something Unforgettable</h2>
             </div>
 
             <div class="row align-items-center">
@@ -863,8 +773,8 @@
                         <form>
                             <div class="row g-3">
                                 <div class="col-md-6">
-                                    <label class="contact-label">Your Name <span class="required">*</span></label>
-                                    <input type="text" class="form-control" placeholder="Ex. Abhii" required>
+                                    <label class="contact-label">Your Full Name <span class="required">*</span></label>
+                                    <input type="text" class="form-control" placeholder="Ex. Abhishek Kumar" required>
                                 </div>
                                 <div class="col-md-6">
                                     <label class="contact-label">Email <span class="required">*</span></label>
@@ -872,22 +782,22 @@
                                 </div>
                                 <div class="col-md-6">
                                     <label class="contact-label">Phone <span class="required">*</span></label>
-                                    <input type="text" class="form-control" placeholder="Enter Phone Number" required>
+                                    <input type="text" class="form-control" placeholder="Enter Your Phone Number"
+                                        required>
                                 </div>
                                 <div class="col-md-6">
                                     <label class="contact-label">Service Interested In <span
                                             class="required">*</span></label>
                                     <select class="form-select" required>
                                         <option selected disabled>Select Service</option>
-                                        <option>Promotions</option>
+                                        <option>Promotions-BTL Marketing</option>
                                         <option>Events</option>
-                                        <option>Event Staffing</option>
-                                        <option>Hospitality Staff</option>
+                                        <option>Event & Hospitality Staffing</option>
                                     </select>
                                 </div>
                                 <div class="col-12">
                                     <label class="contact-label">Your Message <span class="required">*</span></label>
-                                    <textarea class="form-control" placeholder="Enter here.." required></textarea>
+                                    <textarea class="form-control" placeholder="Enter here...." required></textarea>
                                 </div>
                                 <div class="col-12">
                                     <button type="submit" class="send-btn">Send Message</button>
@@ -908,8 +818,8 @@
     <footer class="footer">
         <div class="container">
 
-            <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap">
-                <h2 class="fw-bold">Let’s Connect there</h2>
+            <div class="d-flex justify-content-between align-items-center mb-3 flex-wrap">
+                <h2 class="fw-bold align-items-center justify-content-center">Let’s Connect!</h2>
                 <a href="#" class="contact-btn">Contact Us</a>
             </div>
 
@@ -922,14 +832,12 @@
                             <img src="images/event crew logo.png" alt="Event Crew Logo" height="50">
                         </a>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.</p>
+                    <p class="mb-4">Event Crew is a complete event solutions company, bringing brands closer to people
+                        with impactful activations, flawless event execution, and professional staffing support.</p>
                     <div class="social-icons">
-                        <a href="#"><i class="bi bi-facebook"></i></a>
-                        <a href="#"><i class="bi bi-twitter-x"></i></a>
-                        <a href="#"><i class="bi bi-pinterest"></i></a>
                         <a href="#"><i class="bi bi-instagram"></i></a>
-                        <a href="#"><i class="bi bi-youtube"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
                     </div>
                 </div>
 
@@ -937,16 +845,16 @@
                     <h5 class="mb-4">Navigation</h5>
                     <p><a href="index.html" class="text-decoration-none text-dark">Home</a></p>
                     <p><a href="about.html" class="text-decoration-none text-dark">About</a></p>
-                    <p><a href="#services" class="text-decoration-none text-dark">Services</a></p>
-                    <p><a href="" class="text-decoration-none text-dark">Projects Gallery</a></p>
+                    <p><a href="#all-services" class="text-decoration-none text-dark">Services</a></p>
+                    <p><a href="gallery.html" class="text-decoration-none text-dark">Gallery</a></p>
                     <p><a href="" class="text-decoration-none text-dark">Blogs</a></p>
                 </div>
 
                 <div class="col-md-3">
                     <h5 class="mb-4">Contact</h5>
-                    <p>(000) 000-0000</p>
+                    <p>099990 70928</p>
                     <p>example@gmail.com</p>
-                    <p>2464 Royal Ln. Mesa,<br> New Jersey 45463</p>
+                    <p>Plot No 79, Sector 21A,<br> Faridabad, Haryana 121012</p>
                 </div>
 
                 <div class="col-md-3 mb-4">
@@ -962,7 +870,8 @@
 
         <div class="footer-bottom">
             <div class="container d-flex justify-content-between flex-wrap">
-                <p class="mb-0">Copyright © 2025 Event Crew Company. All Rights Reserved.</p>
+                <p class="mb-0">Copyright © 2025. Event Crew | Design & Developed By <a
+                        href="https://brandingwaale.com/" class="text-decoration-none">Brandingwaale Webtech</a></p>
                 <p class="mb-0">
                     <a href="#">User Terms & Conditions</a> |
                     <a href="#">Privacy Policy</a>
@@ -1018,7 +927,7 @@
 
     <script>
         var swiper = new Swiper(".mySwiper", {
-            slidesPerView: 3,
+            slidesPerView: 1,
             spaceBetween: 30,
             loop: true,
             pagination: {
@@ -1031,8 +940,6 @@
             },
             breakpoints: {
                 320: { slidesPerView: 1 },
-                768: { slidesPerView: 2 },
-                1024: { slidesPerView: 3 }
             }
         });
     </script>

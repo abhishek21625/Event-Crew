@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery | Event Crew</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+</head>
+
+<body>
+
+    <div class="top-bar">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div>
+                <span><i class="bi bi-telephone" style="color: #616161"></i> 099990 70928</span>
+                |
+                <span><i class="bi bi-envelope" style="color: #616161"></i> example@gmail.com</span>
+                |
+                <span><i class="bi bi-geo-alt" style="color: #616161"></i> Plot No 79, Sector 21A, Faridabad, Haryana
+                    121012</span>
+            </div>
+            <div>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/event crew logo.png" alt="Event Crew Logo" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+                title="Toggle navigation" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="servicesDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu shadow-lg border-0 rounded-3 p-2" aria-labelledby="servicesDropdown">
+                            <li><a class="dropdown-item" href="promotion.html">Promotions</a></li>
+                            <li><a class="dropdown-item" href="events.html">Events</a></li>
+                            <li><a class="dropdown-item" href="event and hosp.html">Event & Hospitality Staffing</a>
+                            </li>
+                            <!-- <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item fw-semibold text-primary" href="services.html">View All Services
+                                    →</a></li> -->
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Blogs</a></li>
+                </ul>
+                <a href="#contact us" class="btn btn-get">Book Now</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="gallery-main py-5">
+        <div class="container">
+
+            <div class="text-center mb-5">
+                <h1>Our Event Gallery</h1>
+                <p class="lead">
+                    Discover the magic we create through our expertly crafted events. From intimate gatherings to grand
+                    celebrations, every moment is designed to inspire and delight.
+                </p>
+            </div>
+
+            <div class="gallery-filter text-center mb-5">
+                <button class="filter-btn active" data-filter="all">All Events</button>
+                <button class="filter-btn" data-filter="corporate">Corporate</button>
+                <button class="filter-btn" data-filter="wedding">Weddings</button>
+                <button class="filter-btn" data-filter="social">Social Events</button>
+                <button class="filter-btn" data-filter="conference">Conferences</button>
+            </div>
+
+
+            <div class="gallery-container">
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-6 gallery-item " data-category="corporate">
+                        <img src="images/10x10_Pop-up_Tent_2_1024x1024.webp" alt="Corporate Event">
+                        <div class="gallery-content">
+                            <h5>Annual Tech Summit 2024</h5>
+                            <p>A cutting-edge corporate conference featuring industry leaders and innovative technology
+                                showcases.</p>
+                            <span class="event-tag">Corporate</span>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 gallery-item" data-category="wedding">
+                        <img src="images/Screenshot-2023-12-02-at-7.22.01-PM-qh3f5xr1nukmvdwk2hn6ct6tm86u8lw1ypuxxs0sq8.png"
+                            alt="Wedding Event">
+                        <div class="gallery-content">
+                            <h5>Garden Wedding Celebration</h5>
+                            <p>An enchanting outdoor wedding with stunning floral arrangements and magical ambiance.</p>
+                            <span class="event-tag">Wedding</span>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 gallery-item" data-category="social">
+                        <img src="images/Screenshot-2023-12-02-at-7.22.01-PM-qh3f5xr1nukmvdwk2hn6ct6tm86u8lw1ypuxxs0sq8.png"
+                            alt="Social Event">
+                        <div class="gallery-content">
+                            <h5>Milestone Birthday Bash</h5>
+                            <p>A vibrant celebration filled with joy, laughter, and unforgettable memories for a special
+                                milestone.</p>
+                            <span class="event-tag">Social</span>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 gallery-item" data-category="conference">
+                        <img src="images/Screenshot-2023-12-02-at-7.22.01-PM-qh3f5xr1nukmvdwk2hn6ct6tm86u8lw1ypuxxs0sq8.png"
+                            alt="Conference">
+                        <div class="gallery-content">
+                            <h5>Global Business Forum</h5>
+                            <p>International business leaders gathering to discuss future trends and networking
+                                opportunities.</p>
+                            <span class="event-tag">Conference</span>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 gallery-item" data-category="corporate">
+                        <img src="images/Screenshot-2023-12-02-at-7.22.01-PM-qh3f5xr1nukmvdwk2hn6ct6tm86u8lw1ypuxxs0sq8.png"
+                            alt="Product Launch">
+                        <div class="gallery-content">
+                            <h5>Product Launch Spectacular</h5>
+                            <p>An innovative product reveal event with immersive experiences and cutting-edge
+                                presentations.</p>
+                            <span class="event-tag">Corporate</span>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 gallery-item" data-category="wedding">
+                        <img src="images/Screenshot-2023-12-02-at-7.22.01-PM-qh3f5xr1nukmvdwk2hn6ct6tm86u8lw1ypuxxs0sq8.png"
+                            alt="Wedding Reception">
+                        <div class="gallery-content">
+                            <h5>Luxury Wedding Reception</h5>
+                            <p>An opulent wedding reception featuring exquisite dining and sophisticated entertainment.
+                            </p>
+                            <span class="event-tag">Wedding</span>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 gallery-item" data-category="social">
+                        <img src="images/Screenshot-2023-12-02-at-7.22.01-PM-qh3f5xr1nukmvdwk2hn6ct6tm86u8lw1ypuxxs0sq8.png"
+                            alt="Charity Gala">
+                        <div class="gallery-content">
+                            <h5>Annual Charity Gala</h5>
+                            <p>A sophisticated fundraising event bringing together community leaders for a noble cause.
+                            </p>
+                            <span class="event-tag">Social</span>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 gallery-item" data-category="conference">
+                        <img src="images/Screenshot-2023-12-02-at-7.22.01-PM-qh3f5xr1nukmvdwk2hn6ct6tm86u8lw1ypuxxs0sq8.png"
+                            alt="Medical Conference">
+                        <div class="gallery-content">
+                            <h5>Healthcare Innovation Summit</h5>
+                            <p>Leading medical professionals sharing breakthrough research and innovative healthcare
+                                solutions.</p>
+                            <span class="event-tag">Conference</span>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 gallery-item" data-category="social">
+                        <img src="images/Screenshot-2023-12-02-at-7.22.01-PM-qh3f5xr1nukmvdwk2hn6ct6tm86u8lw1ypuxxs0sq8.png"
+                            alt="Graduation">
+                        <div class="gallery-content">
+                            <h5>University Graduation Ceremony</h5>
+                            <p>A momentous celebration honoring academic achievements and new beginnings.</p>
+                            <span class="event-tag">Social</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA -->
+            <div class="cta-section text-center mt-5">
+                <h2 class="mb-3">Ready to Create Your Perfect Event?</h2>
+                <p class="mb-4">Let our expert team bring your vision to life with creativity, precision, and passion.
+                </p>
+                <a href="#contact" class="cta-btn">
+                    <i class="fas fa-calendar-plus me-2"></i>
+                    Plan Your Event
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+
+            <div class="d-flex justify-content-between align-items-center mb-3 flex-wrap">
+                <h2 class="fw-bold align-items-center justify-content-center">Let’s Connect!</h2>
+                <a href="#" class="contact-btn">Contact Us</a>
+            </div>
+
+            <hr>
+
+            <div class="row mt-4">
+                <div class="col-md-4 mb-4">
+                    <div class=" mb-3">
+                        <a href="index.html" class="logo">
+                            <img src="images/event crew logo.png" alt="Event Crew Logo" height="50">
+                        </a>
+                    </div>
+                    <p class="mb-4">Event Crew is a complete event solutions company, bringing brands closer to people
+                        with impactful activations, flawless event execution, and professional staffing support.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <h5 class="mb-4">Navigation</h5>
+                    <p><a href="index.html" class="text-decoration-none text-dark">Home</a></p>
+                    <p><a href="about.html" class="text-decoration-none text-dark">About</a></p>
+                    <p><a href="#all-services" class="text-decoration-none text-dark">Services</a></p>
+                    <p><a href="" class="text-decoration-none text-dark">Projects Gallery</a></p>
+                    <p><a href="" class="text-decoration-none text-dark">Blogs</a></p>
+                </div>
+
+                <div class="col-md-3">
+                    <h5 class="mb-4">Contact</h5>
+                    <p>099990 70928</p>
+                    <p>example@gmail.com</p>
+                    <p>Plot No 79, Sector 21A,<br> Faridabad, Haryana 121012</p>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <h5>Get the latest information</h5>
+                    <div class="subscribe-input">
+                        <input type="email" placeholder="Email address">
+                        <button><i class="bi bi-send-fill"></i></button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container d-flex justify-content-between flex-wrap">
+                <p class="mb-0">Copyright © 2025. Event Crew | Design & Developed By <a
+                        href="https://brandingwaale.com/" class="text-decoration-none">Brandingwaale Webtech</a></p>
+                <p class="mb-0">
+                    <a href="#">User Terms & Conditions</a> |
+                    <a href="#">Privacy Policy</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Gallery Filter Functionality
+        document.addEventListener('DOMContentLoaded', function () {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const galleryItems = document.querySelectorAll('.gallery-item');
+
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', function () {
+                    // Remove active class from all buttons
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    // Add active class to clicked button
+                    this.classList.add('active');
+
+                    const filterValue = this.getAttribute('data-filter');
+
+                    galleryItems.forEach(item => {
+                        if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+                            item.style.display = 'block';
+                            setTimeout(() => {
+                                item.style.opacity = '1';
+                                item.style.transform = 'scale(1)';
+                            }, 100);
+                        } else {
+                            item.style.opacity = '0';
+                            item.style.transform = 'scale(0.8)';
+                            setTimeout(() => {
+                                item.style.display = 'none';
+                            }, 300);
+                        }
+                    });
+                });
+            });
+
+            // Animate stats on scroll
+            const observerOptions = {
+                threshold: 0.5,
+                rootMargin: '0px 0px -100px 0px'
+            };
+
+            const observer = new IntersectionObserver(function (entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const statNumbers = entry.target.querySelectorAll('.stat-number');
+                        statNumbers.forEach(stat => {
+                            const finalNumber = stat.textContent;
+                            const numericValue = parseInt(finalNumber.replace(/\D/g, ''));
+                            animateNumber(stat, numericValue, finalNumber);
+                        });
+                    }
+                });
+            }, observerOptions);
+
+            observer.observe(document.querySelector('.stats-section'));
+
+            function animateNumber(element, target, finalText) {
+                let current = 0;
+                const increment = target / 50;
+                const timer = setInterval(() => {
+                    current += increment;
+                    if (current >= target) {
+                        element.textContent = finalText;
+                        clearInterval(timer);
+                    } else {
+                        element.textContent = Math.floor(current) + (finalText.includes('+') ? '+' : finalText.includes('%') ? '%' : '');
+                    }
+                }, 40);
+            }
+        });
+    </script>
+
+</body>
+
+</html>
