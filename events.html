@@ -37,7 +37,9 @@
 
     <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand" href="index.html">Event Crew</a>
+            <a class="navbar-brand" href="index.html">
+                <img src="images/event crew logo.png" alt="Event Crew Logo" height="50">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
                 title="Toggle navigation" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -57,11 +59,11 @@
                         <ul class="dropdown-menu shadow-lg border-0 rounded-3 p-2" aria-labelledby="servicesDropdown">
                             <li><a class="dropdown-item" href="promotion.html">Promotions</a></li>
                             <li><a class="dropdown-item" href="events.html">Events</a></li>
-                            <li><a class="dropdown-item" href="">Event & Hospitality Staffing</a></li>
-                            <li>
+                            <li><a class="dropdown-item" href="event and hosp.html">Event & Hospitality Staffing</a></li>
+                            <!-- <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item fw-semibold text-primary" href="services.html">View All Services →</a></li>
+                            <li><a class="dropdown-item fw-semibold text-primary" href="services.html">View All Services →</a></li> -->
                         </ul>
                     </li>
 
@@ -78,31 +80,13 @@
         <div class="container">
             <div>
                 <h2 class="about-title">
-                    Events
+                    <a href="#" class="anchor">Home</a>
+                    / Events
                 </h2>
-                <a href="#" class="anchor">Home</a>
+                
             </div>
         </div>
-    </section>
-
-    <section>
-        <div class="brand-slider">
-            <div class="d-flex gap-4 w-100 brand-bar">
-                <!-- First Row of Logos -->
-                <div><i class="bi bi-asterisk" style="color: #baf814"></i> Promotions</div>
-                <div><i class="bi bi-asterisk" style="color: #baf814"></i> Events</div>
-                <div><i class="bi bi-asterisk" style="color: #baf814"></i> Events & Hospitality Staff</div>
-
-                <div><i class="bi bi-asterisk" style="color: #baf814"></i> Promotions</div>
-                <div><i class="bi bi-asterisk" style="color: #baf814"></i> Events</div>
-                <div><i class="bi bi-asterisk" style="color: #baf814"></i> Events & Hospitality Staff</div>
-
-                <div><i class="bi bi-asterisk" style="color: #baf814"></i> Promotions</div>
-                <div><i class="bi bi-asterisk" style="color: #baf814"></i> Events</div>
-                <div><i class="bi bi-asterisk" style="color: #baf814"></i> Events & Hospitality Staff</div>
-            </div>
-        </div>
-    </section>
+    </section> 
 
     <section class="promo-section" id="about">
         <div class="container">
@@ -320,7 +304,6 @@
     <footer class="footer">
         <div class="container">
 
-            <!-- Top row -->
             <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap">
                 <h2 class="fw-bold">Let’s Connect there</h2>
                 <a href="#" class="contact-btn">Contact Us</a>
@@ -329,15 +312,11 @@
             <hr>
 
             <div class="row mt-4">
-                <!-- Logo and About -->
                 <div class="col-md-4 mb-4">
                     <div class=" mb-3">
-                        <!-- <div style="background:#C6FF00; color:#0d2b1f; font-size:24px; font-weight:bold; 
-                        width:50px; height:50px; display:flex; align-items:center; justify-content:center; 
-                        border-radius:50%;">
-                            D
-                        </div> -->
-                        <h3 class="">Event Crew<span style="color:#C6FF00;">.</span></h3>
+                        <a href="index.html" class="logo">
+                            <img src="images/event crew logo.png" alt="Event Crew Logo" height="50">
+                        </a>
                     </div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua.</p>
@@ -350,25 +329,22 @@
                     </div>
                 </div>
 
-                <!-- Navigation -->
-                <div class="col-md-2 mb-4">
-                    <h5>Navigation</h5>
-                    <p><a href="#" class="text-decoration-none text-dark">Home</a></p>
-                    <p><a href="#" class="text-decoration-none text-dark">About</a></p>
-                    <p><a href="#" class="text-decoration-none text-dark">Services</a></p>
-                    <p><a href="#" class="text-decoration-none text-dark">Testimonials</a></p>
-                    <p><a href="#" class="text-decoration-none text-dark">Blogs</a></p>
+                <div class="col-md-2">
+                    <h5 class="mb-4">Navigation</h5>
+                    <p><a href="index.html" class="text-decoration-none text-dark">Home</a></p>
+                    <p><a href="about.html" class="text-decoration-none text-dark">About</a></p>
+                    <p><a href="#services" class="text-decoration-none text-dark">Services</a></p>
+                    <p><a href="" class="text-decoration-none text-dark">Projects Gallery</a></p>
+                    <p><a href="" class="text-decoration-none text-dark">Blogs</a></p>
                 </div>
 
-                <!-- Contact -->
-                <div class="col-md-3 mb-4">
-                    <h5>Contact</h5>
+                <div class="col-md-3">
+                    <h5 class="mb-4">Contact</h5>
                     <p>(000) 000-0000</p>
                     <p>example@gmail.com</p>
                     <p>2464 Royal Ln. Mesa,<br> New Jersey 45463</p>
                 </div>
 
-                <!-- Subscribe -->
                 <div class="col-md-3 mb-4">
                     <h5>Get the latest information</h5>
                     <div class="subscribe-input">
@@ -380,7 +356,6 @@
 
         </div>
 
-        <!-- Footer bottom -->
         <div class="footer-bottom">
             <div class="container d-flex justify-content-between flex-wrap">
                 <p class="mb-0">Copyright © 2025 Event Crew Company. All Rights Reserved.</p>
