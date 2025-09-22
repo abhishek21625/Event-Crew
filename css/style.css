@@ -2156,6 +2156,47 @@ textarea {
     /* gap: 10px; */
   }
 
+  /* SERVICES PAGE */
+
+  .promo-section {
+    padding: 40px 20px;
+  }
+
+  .promo-text {
+    text-align: justify;
+  }
+
+  .promo-text p {
+    text-align: justify;
+  }
+  .promo-services .row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .promo-services .col-4,
+  .promo-services .col-8 {
+    width: 100% !important;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .promo-card-body {
+    padding: 20px !important;
+    text-align: justify;
+
+  }
+
+  .promo-card-body h5 {
+    font-size: 1.3rem;
+    text-align: start;
+  }
+
+  .promo-card img {
+    height: auto;
+    max-height: 220px;
+  }
+
 }
 
 /* Medium devices (tablets ≥576px and <992px) */
