@@ -325,7 +325,7 @@ section {
 
 /* vertical divider placed at right edge of each column except the last column in the row */
 @media (min-width: 768px) {
-  .stats-row>.stat-col:not(:last-child)::after {
+  .stats-row > .stat-col:not(:last-child)::after {
     content: "";
     position: absolute;
     top: 50%;
@@ -340,7 +340,7 @@ section {
 
 /* Hide divider on small screens (mobile) */
 @media (max-width: 767.98px) {
-  .stats-row>.stat-col::after {
+  .stats-row > .stat-col::after {
     display: none;
   }
 }
@@ -923,12 +923,12 @@ section {
   /* margin-bottom: px; */
 }
 
-.service-title {
+/* .service-title {
   font-size: 1.1rem;
   font-weight: bold;
   margin-bottom: 10px;
   color: var(--color-black);
-}
+} */
 
 .service-desc {
   /* font-size: 0.9rem; */
@@ -1032,7 +1032,8 @@ textarea {
 /* Service Page */
 .bar-hero {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("https://images.unsplash.com/photo-1492684223066-81342ee5ff30?ixlib=rb-4.0.3&auto=format&fit=crop&w=1400&q=80") center/cover no-repeat;
+    url("https://images.unsplash.com/photo-1492684223066-81342ee5ff30?ixlib=rb-4.0.3&auto=format&fit=crop&w=1400&q=80")
+      center/cover no-repeat;
   color: white;
   text-align: center;
   height: 300px;
@@ -1464,9 +1465,11 @@ textarea {
 /* GALLERY */
 
 .gallery-section {
-  background: linear-gradient(135deg,
-      var(--primary-orange),
-      var(--secondary-orange));
+  background: linear-gradient(
+    135deg,
+    var(--primary-orange),
+    var(--secondary-orange)
+  );
   color: white;
   padding: 80px 0;
   text-align: center;
@@ -1562,9 +1565,11 @@ textarea {
 }
 
 .event-tag {
-  background: linear-gradient(45deg,
-      var(--primary-orange),
-      var(--secondary-orange));
+  background: linear-gradient(
+    45deg,
+    var(--primary-orange),
+    var(--secondary-orange)
+  );
   color: white;
   padding: 4px 12px;
   border-radius: 15px;
@@ -1658,7 +1663,8 @@ textarea {
 /* Hero Section */
 .blog-hero {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1400&q=80") center/cover no-repeat;
+    url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1400&q=80")
+      center/cover no-repeat;
   color: white;
   text-align: center;
   padding: 100px 20px;
@@ -1763,6 +1769,10 @@ textarea {
 
 /* Small devices (phones <576px) */
 @media (max-width: 575.98px) {
+  .top-bar {
+    display: none;
+  }
+
   .hero {
     padding: 30px 15px;
     text-align: center;
@@ -1800,7 +1810,7 @@ textarea {
 
   .about-section h1 {
     font-size: 1.8rem;
-    padding-top: 22px;
+    padding-top: 5px;
     padding-bottom: 0px;
   }
 
@@ -1818,6 +1828,14 @@ textarea {
   .about-btn {
     padding: 8px 18px;
     font-size: 0.9rem;
+  }
+
+  .brand-slider {
+    height: 60px;
+  }
+
+  .brand-bar {
+    padding: 10px;
   }
 
   /* About-cards */
@@ -1842,8 +1860,9 @@ textarea {
   /* Stats  */
 
   #stats {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    /* padding-top: 30px;
+    padding-bottom: 30px; */
+    padding: 10px;
   }
 
   .stat-number {
@@ -1869,7 +1888,7 @@ textarea {
   }
 
   .testimonial2 {
-  padding: 10px 0px 20px 0px;
+    padding: 10px 0px 20px 0px;
   }
 
   .testimonial-left {
@@ -1896,11 +1915,10 @@ textarea {
     font-size: 14px;
   }
 
-
   /* BLOGS */
 
   .blogs {
-    padding: 40px 0;
+    padding: 30px 0;
   }
 
   .section-title h2 {
@@ -1918,7 +1936,7 @@ textarea {
   /* FAQ SECTION */
 
   .faq-section {
-    padding: 40px 0;
+    padding: 30px 0;
   }
 
   .faq-title h2 {
@@ -1946,7 +1964,7 @@ textarea {
   /* PROCESS SECTION */
 
   .process-section {
-    padding: 30px 15px;
+    padding: 15px;
     text-align: center;
   }
 
@@ -1975,9 +1993,21 @@ textarea {
 
   /* SERVICES */
 
+  .services {
+  padding: 30px 0;
+}
+
   .services h2 {
     font-size: 1.5rem;
     line-height: 1.4;
+  }
+
+  .services-title{
+    margin-bottom: 20px;
+  }
+
+  .services-title p {
+    margin-bottom: 5px;
   }
 
   .services .services-card {
@@ -2062,6 +2092,9 @@ textarea {
   .footer h2 {
     font-size: 1.5rem;
     margin-bottom: 15px;
+    /* text-align: center;
+    justify-content: ;
+    align-items: center; */
   }
 
   .footer p {
@@ -2107,7 +2140,8 @@ textarea {
   }
 
   /* 🔹 Contact info in a row */
-  .footer .col-md-3:nth-child(3) { /* target Contact column */
+  .footer .col-md-3:nth-child(3) {
+    /* target Contact column */
     text-align: center;
     margin-bottom: 20px;
   }
@@ -2184,7 +2218,6 @@ textarea {
   .promo-card-body {
     padding: 20px !important;
     text-align: justify;
-
   }
 
   .promo-card-body h5 {
@@ -2196,12 +2229,10 @@ textarea {
     height: auto;
     max-height: 220px;
   }
-
 }
 
 /* Medium devices (tablets ≥576px and <992px) */
 @media (min-width: 576px) and (max-width: 991.98px) {
-
   /* HERO SECTION */
 
   .hero {
@@ -2285,7 +2316,7 @@ textarea {
     margin-bottom: 25px;
   }
 
-/* TESTIMONIALS */
+  /* TESTIMONIALS */
 
   .testimonials {
     padding: 40px 0 30px;
@@ -2314,7 +2345,7 @@ textarea {
     height: 36px;
   }
 
-/* BLOGS */
+  /* BLOGS */
 
   .blogs {
     padding: 40px 0;
@@ -2351,15 +2382,15 @@ textarea {
     font-size: 0.9rem;
   }
 
-/* FAQ SECTION */
+  /* FAQ SECTION */
 
-.faq-section {
-  padding: 40px 0;
-}
+  .faq-section {
+    padding: 40px 0;
+  }
 
-/* PROCESS SECTION */
+  /* PROCESS SECTION */
 
-.process-section {
+  .process-section {
     padding: 50px 20px;
   }
 
@@ -2465,5 +2496,4 @@ textarea {
     border-radius: 12px;
     object-fit: cover;
   }
-
 }
