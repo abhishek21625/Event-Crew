@@ -142,7 +142,7 @@ section {
 .btn-main {
   background: var(--color-primary-dark);
   color: var(--color-white);
-  border-radius: 30px;
+  border-radius: 50px;
   padding: 10px 25px;
   font-weight: 500;
   margin-right: 10px;
@@ -1272,7 +1272,7 @@ textarea {
 }
 
 .why-choose-section {
-  padding: 60px 20px;
+  padding: 40px 10px;
 }
 
 .why-choose-section h2 {
@@ -1411,7 +1411,7 @@ textarea {
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
-  .section-title h2 {
+  .client-title h2 {
     font-size: 2rem;
   }
 
@@ -1426,7 +1426,7 @@ textarea {
   }
 
   .clientele-section {
-    padding: 60px 0;
+    padding: 30px 0;
   }
 }
 
@@ -1667,6 +1667,7 @@ textarea {
       center/cover no-repeat;
   color: white;
   text-align: center;
+  /* height: 300px; */
   padding: 100px 20px;
 }
 
@@ -1839,11 +1840,16 @@ textarea {
   }
 
   .brand-bar div {
-  font-weight: 500;
-  font-size: large;
-}
+    font-weight: 500;
+    font-size: large;
+  }
 
   /* About-cards */
+
+  .bar-hero {
+    height: 250px;
+    /* padding: 100px 20px; */
+  }
 
   .info-card {
     padding: 20px;
@@ -1999,15 +2005,15 @@ textarea {
   /* SERVICES */
 
   .services {
-  padding: 30px 0;
-}
+    padding: 30px 0;
+  }
 
   .services h2 {
     font-size: 1.5rem;
     line-height: 1.4;
   }
 
-  .services-title{
+  .services-title {
     margin-bottom: 20px;
   }
 
@@ -2109,7 +2115,7 @@ textarea {
   .footer .contact-btn {
     margin-top: 10px;
     width: 100%;
-    border-radius: 8px;
+    border-radius: 20px;
     padding: 10px;
     font-size: 1rem;
   }
@@ -2195,10 +2201,59 @@ textarea {
     /* gap: 10px; */
   }
 
+  /* ABOUT PAGE */
+
+  .why-choose-section {
+    padding: 30px 10px;
+  }
+
+  .why-choose-section h2 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .trust-badge {
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  .trust-badge p {
+    padding: 8px 20px;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+
+  .client-title {
+    text-align: center;
+    margin-bottom: 25px;
+    /* padding: 0 10px; */
+  }
+
+  .client-title h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+
+  /* BLOG PAGE */
+
+  .blog-hero {
+    height: 250px;
+    padding: 80px 20px;
+  }
+
   /* SERVICES PAGE */
 
   .promo-section {
     padding: 40px 20px;
+  }
+
+  .promo-head h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
   }
 
   .promo-text {
